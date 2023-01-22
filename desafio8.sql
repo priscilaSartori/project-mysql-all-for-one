@@ -1,3 +1,1 @@
-CREATE TABLE Trybe (`A` INT, `Trybe` CHAR(30) NOT NULL, `eh` INT);
-INSERT INTO Trybe (A, Trybe, eh) VALUES
-(5 + 6,'de', 2 + 8);
+SELECT 5 + 6 AS `A`, 'de' AS `Trybe`, 2 + 8 AS `eh`;
